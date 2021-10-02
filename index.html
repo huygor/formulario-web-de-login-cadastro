@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- FORM -->
+    <div class="container">
+        <div class="card">
+            <div class="inner--box" id="card">
+                <div class="card--front">
+                    <h2>LOGIN</h2>
+                    <form action="">
+                        <input type="email" class="input--box" placeholder="e-mail" required>
+                        <input type="password" class="input--box" placeholder="Senha" required>
+                        <button type="submit" class="submit--btn">Entrar</button>
+                        <input type="checkbox"><span>Lembre E-mal</span>
+                    </form>
+                    <button type="button" class="btn" onclick="openRegister()">Não tenho uma conta</button>
+                    <a href="#">Recuperar Senha</a>
+                </div>
+                <div class="card--back">
+                    <h2>CADASTRO</h2>
+                    <form action="">
+                        <input type="text" class="input--box" placeholder="Usuario" required>
+                        <input type="email" class="input--box" placeholder="E-mail" required>
+                        <input type="password" class="input--box" placeholder="Senha" required>
+                        <button type="submit" class="submit--btn">Cadastrar</button>
+                    </form>
+                    <button type="button" class="btn" onclick="openLogin()">Já tenho uma conta</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- SCRIPT -->
+    <script src="./assets/js/main.js"></script>   
+</body>
+</html>
